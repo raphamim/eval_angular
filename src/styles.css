@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+a{
+    text-decoration: none;    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+app-header li {
+     list-style: none;
+    display: inline-block;
+}
+
+app-header, app-footer{
+    background-color: #0C0036;
+    color: white;
+    display: block;
+    padding: 2rem;
+}
+
+app-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+app-header li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+app-header a{
+    color: white;
+}
+
+main {
+    padding: 2rem;
+}
+
+app-dashboard section {
+    border: .1rem dotted #0C0036;
+    text-transform: uppercase;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+app-portfolio section{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+ul li em {
+        font-weight: bold;
+}
