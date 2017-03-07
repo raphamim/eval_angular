@@ -76,3 +76,11 @@ app-portfolio section{
 ul li em {
         font-weight: bold;
 }
+
+app-contacts section {
+        margin-top: 20%;
+}
+
+app-contacts ul li {
+    margin-bottom: 2%;
+}
